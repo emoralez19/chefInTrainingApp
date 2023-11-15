@@ -46,6 +46,7 @@
             this.label1.Size = new System.Drawing.Size(1229, 181);
             this.label1.TabIndex = 0;
             this.label1.Text = "Chef In Training";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -82,6 +83,7 @@
             this.createBtn.TabIndex = 3;
             this.createBtn.Text = "Create New Recipe";
             this.createBtn.UseVisualStyleBackColor = true;
+            this.createBtn.Click += new System.EventHandler(this.createBtn_Click);
             // 
             // sqlConnection1
             // 

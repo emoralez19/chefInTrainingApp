@@ -42,5 +42,16 @@ namespace RecipeInTraining
             }
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void createBtn_Click(object sender, EventArgs e)
+        {
+            createForm newForm = new createForm();
+            newForm.CreateDBConnection = sqlConnection1;
+            newForm.Show();
+        }
     }
 }
